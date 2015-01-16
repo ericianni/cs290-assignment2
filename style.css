@@ -1,0 +1,58 @@
+#col1 :first-child{
+	font-weight: normal;
+	font-style: italic;
+}
+
+#col1 :first-child + td{
+	color: red;
+}
+
+#col1 :first-child + td + td + td{
+	color: blue;
+}
+
+#table :first-child + tr{
+	background: lightGreen;
+}
+
+#table :first-child + tr + tr{
+	background: lightBlue;
+}
+
+#table :first-child + tr + tr + tr{
+	background: lightGreen;
+}
+
+#table :first-child + tr + tr + tr + tr{
+	background: lightBlue;
+}
+
+#table :first-child + tr + tr + tr + tr + tr{
+	background: lightGreen;
+}
+
+dt:hover + dd{
+	position: left;
+	background-color: purple;
+}
+
+.outer-content {
+	width: 75%;
+	background-color: pink;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.inner-content {
+	background-color: blue;
+	width: 75%;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#picture{
+	float: left;
+	height: 100px;
+	width: 94px;
+}
