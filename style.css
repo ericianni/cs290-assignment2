@@ -1,34 +1,25 @@
-#col1 :first-child{
-	font-weight: normal;
-	font-style: italic;
+*{
+	border: 1px solid black;
 }
 
-#col1 :first-child + td{
-	color: red;
+tbody  tr  th:first-of-type{
+	font-style:italic;
 }
 
-#col1 :first-child + td + td + td{
-	color: blue;
+tbody td:first-of-type {
+	color:red;
 }
 
-#table :first-child + tr{
-	background: lightGreen;
+td:first-of-type + td + td {
+	color:blue;
 }
 
-#table :first-child + tr + tr{
-	background: lightBlue;
+tbody tr:nth-child(odd){
+	background-color: lightgreen;
 }
 
-#table :first-child + tr + tr + tr{
-	background: lightGreen;
-}
-
-#table :first-child + tr + tr + tr + tr{
-	background: lightBlue;
-}
-
-#table :first-child + tr + tr + tr + tr + tr{
-	background: lightGreen;
+tbody tr:nth-child(even){
+	background-color: lightblue;
 }
 
 dt:hover + dd{
@@ -49,6 +40,7 @@ dt:hover + dd{
 	position: center;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 #picture{
