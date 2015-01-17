@@ -1,5 +1,6 @@
 tbody  tr  th:first-of-type{
 	font-style:italic;
+	font-weight: normal;
 }
 
 tbody td:first-of-type {
